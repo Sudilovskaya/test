@@ -46,7 +46,7 @@ export default {
 
       if (!isFormCorrect) return;
 
-      const response = await axios.get('http://emphasoft-test-assignment.herokuapp.com/api/v1/users/', {
+      const response = await axios.get('https://emphasoft-test-assignment.herokuapp.com/api/v1/users/', {
             headers: {
               Authorization: 'Token 781bd9f1de084f4daa7ba2aa8a71a2eab855354e',
             },
