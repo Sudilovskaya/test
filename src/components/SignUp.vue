@@ -58,7 +58,7 @@ export default {
 
       if (!isFormCorrect) return;
 
-      await axios.post('http://emphasoft-test-assignment.herokuapp.com/api/v1/users/', {
+      await axios.post('https://emphasoft-test-assignment.herokuapp.com/api/v1/users/', {
             username: this.username,
             first_name: this.first_name,
             last_name: this.last_name,
